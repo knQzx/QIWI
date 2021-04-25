@@ -12,7 +12,7 @@ this money on the bot.
 
 
 # QIWI API
-This script will help you find out all the details of the payment to your account. Let's go through the functions:
+# This script will help you find out all the details of the payment to your account. Let's go through the functions:
 ##### profile_information - gets all the information about your profile in the form of a dictionary
 ##### date_of_creation - gets the date of creation of your qiwi profile
 ##### banc - gets the bank name
@@ -28,3 +28,20 @@ This script will help you find out all the details of the payment to your accoun
 ##### nickname_user - get the username of the user balance
 ##### nickname_banc - get the bank's omnidonym
 ##### name_of_money - get the name of the corresponding wallet account
+***
+# Данный скрипт вам поможет узнать все данные платежа на ваш аккаунт. Пройдёмся по функциям:
+##### profile_information - получает всю информацию о вашем профиле в виде словаря
+##### date_of_creation - получает дату создания вашего qiwi профиля
+##### banc - получает имя банка
+##### level_iden - получает информация вашего профиля о вашем уровне идентификации
+##### validity_period - проверяет не истёк ли срок действия паспорта, возвращает либо true либо false
+##### number_person - получаем свой номер
+##### name_person - получаем свой никнейм
+##### last_transaction_status - получаем статус последнего платежа на аккаунте
+##### last_transaction_number - получаем номер человека который последним нам перевёл деньги
+##### last_transaction_sum - получаем сумму последнего получения денег
+##### last_transaction_info_end - получаем всю информацию о платеже, amount and валюта
+##### balance - получаем текущий баланс в рублях
+##### nickname_user - получаем всевдоним пользовательского баланса
+##### nickname_banc - получаем всевдоним банка
+##### name_of_money - получаем название соответствующего счета кошелька
