@@ -13,18 +13,18 @@ this money on the bot.
 
 # QIWI API
 This script will help you find out all the details of the payment to your account. Let's go through the functions:
-##### h5 profile_information - gets all the information about your profile in the form of a dictionary
-##### h5 date_of_creation - gets the date of creation of your qiwi profile
-##### h5 banc - gets the bank name
-##### h5 level_iden - gets your profile information about your identification level
-##### h5 validity_period - checks whether the passport has expired, returns either true or false
-##### h5 number_person - get your number
-##### h5 name_person - get your nickname
-##### h5 last_transaction_status - get the status of the last payment on the account
-##### h5 last_transaction_number - get the number of the person who last transferred money to us 
-##### h5 last_transaction_sum - get the amount of the last receipt of money
-##### h5 last_transaction_info_end-get all the information about the payment, amount and currency
-##### h5 balance - get the current balance in rubles
-##### h5 nickname_user - get the username of the user balance
-##### h5 nickname_banc - get the bank's omnidonym
-##### h5 name_of_money - get the name of the corresponding wallet account
+##### profile_information - gets all the information about your profile in the form of a dictionary
+##### date_of_creation - gets the date of creation of your qiwi profile
+##### banc - gets the bank name
+##### level_iden - gets your profile information about your identification level
+##### validity_period - checks whether the passport has expired, returns either true or false
+##### number_person - get your number
+##### name_person - get your nickname
+##### last_transaction_status - get the status of the last payment on the account
+##### last_transaction_number - get the number of the person who last transferred money to us 
+##### last_transaction_sum - get the amount of the last receipt of money
+##### last_transaction_info_end-get all the information about the payment, amount and currency
+##### balance - get the current balance in rubles
+##### nickname_user - get the username of the user balance
+##### nickname_banc - get the bank's omnidonym
+##### name_of_money - get the name of the corresponding wallet account
