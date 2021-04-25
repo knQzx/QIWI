@@ -37,6 +37,10 @@ class Store_QIWI:
     def info_about_provider(self):
         '''так вы получите все данные об провайдере'''
         return self.gg['data'][0]['provider']
+    
+    def last_pay_comment(self):
+        '''так вы получаете комментарий который был к платежу'''
+        return self.gg['data'][0]['comment']
 
 
 qiwi = Store_QIWI(input('введи сюда свой номер без +: '), input('введи сюда свой qiwi token - '))
