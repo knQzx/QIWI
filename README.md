@@ -45,3 +45,14 @@ this money on the bot.
 ##### nickname_user - получаем всевдоним пользовательского баланса
 ##### nickname_banc - получаем всевдоним банка
 ##### name_of_money - получаем название соответствующего счета кошелька
+***
+We can call the functions of the first file like this:
+qiwi = Qiwi(input('enter your number here without +: '), input('enter your qiwi token here: '))
+print(qiwi.<function name>)
+***
+In the second file, this happens like this:
+qiwi = Store_QIWI(input('enter your number here without +: '), input('enter your qiwi token here:  '))
+print(qiwi.<function name>)
+
+
+
