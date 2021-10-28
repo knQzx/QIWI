@@ -47,7 +47,7 @@ this money on the bot.
 ##### <code>nickname_banc</code> - получаем всевдоним банка
 ##### <code>name_of_money</code> - получаем название соответствующего счета кошелька
 ***
-We can call the functions of the first file like this:
+We can call the functions of the first file like this:\n
 qiwi = Qiwi(input('enter your number here without +: '), input('enter your qiwi token here: '))
 print(qiwi.<function name>)
 ***
