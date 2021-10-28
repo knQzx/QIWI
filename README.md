@@ -13,7 +13,7 @@ this money on the bot.
 
 # QIWI API
 # This script will help you find out all the details of the payment to your account. Let's go through the functions:
-##### profile_information - gets all the information about your profile in the form of a dictionary
+##### <code>profile_information</code> - gets all the information about your profile in the form of a dictionary
 ##### date_of_creation - gets the date of creation of your qiwi profile
 ##### banc - gets the bank name
 ##### level_iden - gets your profile information about your identification level
