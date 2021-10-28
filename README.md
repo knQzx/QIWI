@@ -1,6 +1,7 @@
 # QIWI
 Hello everyone! This is a script based on the QIWI API. It contains functions that reduce 
 the work of a person. Also, this script can be used to help people who make payments in their, for example, Telegram Bot store.
+You can use this to track transactions to your QIWI account. You can attach this to a separate database and check every second whether a payment has been received or not. If you have entered, then just fill in the data in this database.
 
 
 # QIWI FROM STORE
@@ -30,21 +31,21 @@ this money on the bot.
 ##### <code>name_of_money</code> - get the name of the corresponding wallet account
 ***
 # Данный скрипт вам поможет узнать все данные платежа на ваш аккаунт. Пройдёмся по функциям:
-##### profile_information - получает всю информацию о вашем профиле в виде словаря
-##### date_of_creation - получает дату создания вашего qiwi профиля
-##### banc - получает имя банка
-##### level_iden - получает информация вашего профиля о вашем уровне идентификации
-##### validity_period - проверяет не истёк ли срок действия паспорта, возвращает либо true либо false
-##### number_person - получаем свой номер
-##### name_person - получаем свой никнейм
-##### last_transaction_status - получаем статус последнего платежа на аккаунте
-##### last_transaction_number - получаем номер человека который последним нам перевёл деньги
-##### last_transaction_sum - получаем сумму последнего получения денег
-##### last_transaction_info_end - получаем всю информацию о платеже, amount and валюта
-##### balance - получаем текущий баланс в рублях
-##### nickname_user - получаем всевдоним пользовательского баланса
-##### nickname_banc - получаем всевдоним банка
-##### name_of_money - получаем название соответствующего счета кошелька
+##### <code>profile_information</code> - получает всю информацию о вашем профиле в виде словаря
+##### <code>date_of_creation</code> - получает дату создания вашего qiwi профиля
+##### <code>banc</code> - получает имя банка
+##### <code>level_iden</code> - получает информация вашего профиля о вашем уровне идентификации
+##### <code>validity_period</code> - проверяет не истёк ли срок действия паспорта, возвращает либо true либо false
+##### <code>number_person</code> - получаем свой номер
+##### <code>name_person</code> - получаем свой никнейм
+##### <code>last_transaction_status</code> - получаем статус последнего платежа на аккаунте
+##### <code>last_transaction_number</code> - получаем номер человека который последним нам перевёл деньги
+##### <code>last_transaction_sum</code> - получаем сумму последнего получения денег
+##### <code>last_transaction_info_end</code> - получаем всю информацию о платеже, amount and валюта
+##### <code>balance</code> - получаем текущий баланс в рублях
+##### <code>nickname_user</code> - получаем всевдоним пользовательского баланса
+##### <code>nickname_banc</code> - получаем всевдоним банка
+##### <code>name_of_money</code> - получаем название соответствующего счета кошелька
 ***
 We can call the functions of the first file like this:
 qiwi = Qiwi(input('enter your number here without +: '), input('enter your qiwi token here: '))
@@ -53,6 +54,3 @@ print(qiwi.<function name>)
 In the second file, this happens like this:
 qiwi = Store_QIWI(input('enter your number here without +: '), input('enter your qiwi token here:  '))
 print(qiwi.<function name>)
-
-
-
